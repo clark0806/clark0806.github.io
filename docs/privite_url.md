@@ -8,6 +8,7 @@
   | https://{{api-id}}.execute-api.{{region}}.amazonaws.com/{{stage}} | https://6vto8ihm33.execute-api.eu-west-1.amazonaws.com/public | Forbidden |  
   | https://{{api-id}}-{{endpoint-id}}.execute-api.{{region}}.amazonaws.com/{{stage}} | https://6vto8ihm33-vpce-016b813476559bb0f.execute-api.eu-west-1.amazonaws.com/public | Forbidden |  
   | https://{{endpoint-public-dns-name}}/{{stage}} -H "x-apigw-api-id: {{api-id}}" | https://vpce-016b813476559bb0f-4w2769cp.execute-api.eu-west-1.vpce.amazonaws.com/public -H 'x-apigw-api-id: 6vto8ihm33'| Forbidden |  
+{:toc}
 - **Private api-gateway: < associate with `endpoint` >**
   | Url_Format | Url_Example | Result | 
   | :--- | :--- | :--- |
