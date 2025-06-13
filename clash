@@ -7,8 +7,8 @@ log-level: info
 proxies:
   - name: "my-vpn"
     type: vmess
-    server: vpn.example.com
-    port: 443
+    server: localhost
+    port: 1080
     uuid: 12345678-abcd-1234-abcd-1234567890ab
     alterId: 0
     cipher: auto
